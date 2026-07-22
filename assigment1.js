@@ -149,3 +149,47 @@ console.log(Object.keys(person));
 
 let sentence = "the quick brown fox";
 console.log(sentence.split(" "));
+
+
+
+
+
+
+//Part 2: Essay Questions
+
+
+//1. What is the difference between forEach and for...of? When would you use each?
+
+forEach is used to llob througt array and canot use break or continue 
+
+for...of is used to llob througt array and can use break or continue
+
+
+//2. What is hoisting and what is the Temporal Dead Zone (TDZ)? Explain with examples.
+
+hoisting is js behavior moveing declaration to the top of the scope
+
+TDZ is that the period where let and const wxist
+
+
+//3. What are the main differences between == and ===?
+
+== compares values after type and be true
+
+=== compares values and data type without type and be false
+
+
+//4. Explain how try-catch works and why it is important in async operations.
+
+handles the error without stopping the programing
+
+
+//5. What’s the difference between type conversion and coercion? Provide examples of each.
+
+conversion:using functions like number() or string()
+
+coercion:it is automatic conversion by js
+
+
+
+
